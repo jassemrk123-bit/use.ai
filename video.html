@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editing — YOURNAME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cursor"></div><div id="cursor-dot"></div>
+  <div id="nav"></div>
+
+  <main>
+    <section class="wrap">
+      <span class="tag">Portfolio / 03</span>
+      <h1 class="reveal-l">Video <span class="flicker accent">Editing</span></h1>
+      <p class="reveal-r" style="margin-top:1rem">Cutting for rhythm. Grading for mood. Sound that hits.
+        Embed your showreel below — YouTube/Vimeo embeds work perfectly on GitHub Pages.</p>
+    </section>
+
+    <section class="wrap reveal-u">
+      <!-- Replace VIDEO_ID with your YouTube showreel ID -->
+      <div style="aspect-ratio:16/9;border:1px solid rgba(200,255,0,.3);border-radius:10px;overflow:hidden">
+        <iframe src="[youtube.com](https://www.youtube.com/embed/VIDEO_ID)" title="Showreel"
+          style="width:100%;height:100%;border:0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="reveal-l">Selected edits</h2>
+      <div class="grid">
+        <div class="card reveal-l"><div class="thumb">vid-01.jpg</div>
+          <div class="body"><h3>Brand Launch Film</h3><p>45s · Premiere Pro + After Effects · grade + SFX</p></div></div>
+        <div class="card reveal-u"><div class="thumb">vid-02.jpg</div>
+          <div class="body"><h3>Product Reel</h3><p>Instagram vertical · fast-cut · motion titles</p></div></div>
+        <div class="card reveal-r"><div class="thumb">vid-03.jpg</div>
+          <div class="body"><h3>Event Aftermovie</h3><p>2 min · multicam sync · beat-matched cut</p></div></div>
+        <div class="card reveal-l"><div class="thumb">vid-04.jpg</div>
+          <div class="body"><h3>Ad Spot</h3><p>15s broadcast-safe · cinematic grade</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
